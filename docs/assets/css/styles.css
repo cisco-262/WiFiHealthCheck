@@ -206,8 +206,6 @@ h3 { font-size: 20px; }
   width: 100%;
   max-height: min(72vh, 760px);
   object-fit: contain;
-  border-radius: 34px;
-  box-shadow: 0 30px 80px rgba(18, 58, 52, 0.24);
 }
 
 .device-panel {
@@ -448,7 +446,7 @@ section { padding: 74px 0; }
   .nav-links.open { display: flex; }
   .hero { padding-top: 52px; }
   .hero-grid { gap: 34px; }
-  .hero-visual img { max-height: 56vh; border-radius: 28px; }
+  .hero-visual img { max-height: 56vh; }
   .features, .steps { grid-template-columns: 1fr; }
   section { padding: 54px 0; }
   h1 { font-size: clamp(38px, 12vw, 54px); }

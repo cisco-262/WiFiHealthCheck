@@ -1,0 +1,19 @@
+{
+  "name": "WiFi Health Check",
+  "short_name": "WiFi Health",
+  "icons": [
+    {
+      "src": "/assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#19a974",
+  "background_color": "#f7fbf9",
+  "display": "standalone"
+}
