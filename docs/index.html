@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WiFi Health Check - Local WiFi and LAN Diagnostics for iPhone</title>
+  <meta name="description" content="WiFi Health Check is a free local-only iPhone app for one-tap internet checks, WiFi SSID/BSSID and security type context, LAN TCP stability tests, roaming reports, and shareable diagnostics.">
+  <link rel="canonical" href="https://wifi.opshome.run/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="WiFi Health Check - Local WiFi and LAN Diagnostics">
+  <meta property="og:description" content="Free local-only iPhone WiFi diagnostics: public website connectivity, WiFi security type, LAN TCP stability, gateway info, and roaming reports.">
+  <meta property="og:url" content="https://wifi.opshome.run/">
+  <meta property="og:image" content="https://wifi.opshome.run/assets/images/IMG_0536-portrait.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="WiFi Health Check">
+  <meta name="twitter:description" content="Local-only WiFi and LAN diagnostic reports for iPhone, including WiFi security type when iOS provides it.">
+  <meta name="twitter:image" content="https://wifi.opshome.run/assets/images/IMG_0536-portrait.png">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/assets/images/app-logo.png">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="/" aria-label="WiFi Health Check home">
+        <img src="/assets/images/app-icon.png" width="34" height="34" alt="WiFi Health Check app icon" decoding="async">
+        <span>WiFi Health Check</span>
+      </a>
+      <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" data-menu-button>Menu</button>
+      <nav class="nav-links" data-nav-links>
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/support/">Support</a>
+        <a href="https://app.opshome.run/">OpsHome NOC</a>
+        <a class="button primary" href="#download">Download</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">WiFi Health Check</p>
+          <h1>Diagnose WiFi Problems from Your iPhone</h1>
+          <p class="lead">Run local-only WiFi and LAN checks for internet reachability, WiFi security type, gateway information, TCP stability, and roaming behavior without creating an account.</p>
+          <div class="cta-row">
+            <a class="button primary" href="#download" id="download">Download on the App Store</a>
+            <a class="button secondary" href="#features">Learn More</a>
+          </div>
+          <ul class="trust-tags" aria-label="Product highlights">
+            <li>No Account</li>
+            <li>No Cloud Upload</li>
+            <li>Public Site Checks</li>
+            <li>WiFi Security Type</li>
+            <li>LAN TCP Stability</li>
+            <li>Roaming Reports</li>
+          </ul>
+        </div>
+        <figure class="hero-visual">
+          <img src="/assets/images/IMG_0536-portrait.png" width="1419" height="2796" alt="WiFi Health Check iPhone app home screen" fetchpriority="high" decoding="async">
+        </figure>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <div class="section-head">
+          <h2>Focused tools for real WiFi troubleshooting</h2>
+          <p>WiFi Health Check is built for quick front-of-device diagnostics, not background monitoring or packet capture.</p>
+        </div>
+        <div class="grid features">
+          <article class="card"><div class="icon">1</div><h3>One-tap network diagnostic</h3><p>Check public website connectivity, DNS behavior, local IP, WiFi security type, gateway address, and gateway TCP probe context in one report.</p></article>
+          <article class="card"><div class="icon">T</div><h3>LAN TCP stability test</h3><p>Test a router, NAS, printer, Proxmox host, or AP management address using a custom TCP port and repeated samples.</p></article>
+          <article class="card"><div class="icon">R</div><h3>WiFi roaming report</h3><p>Record SSID and BSSID samples while moving, then review the path from one WiFi node to the next.</p></article>
+          <article class="card"><div class="icon">W</div><h3>WiFi security context</h3><p>Show the current WiFi security type when iOS provides it, including Open, WEP, Personal, and Enterprise networks.</p></article>
+          <article class="card"><div class="icon">G</div><h3>Gateway information</h3><p>See the current gateway address as supporting context without treating a closed gateway port as internet failure.</p></article>
+          <article class="card"><div class="icon">S</div><h3>Shareable text reports</h3><p>Save diagnostic, stability, and roaming results locally, then share clean text reports when you need help.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works">
+      <div class="container">
+        <div class="section-head">
+          <h2>How WiFi Health Check works</h2>
+        </div>
+        <div class="grid steps">
+          <article class="card step"><h3>Open the app on WiFi</h3><p>Use a real iPhone connected to WiFi. iOS may require location permission to expose SSID, BSSID, and security type.</p></article>
+          <article class="card step"><h3>Run a focused test</h3><p>Choose one-tap diagnosis, LAN TCP stability, or roaming test depending on the problem you are investigating.</p></article>
+          <article class="card step"><h3>Review local results</h3><p>Understand public-site reachability, WiFi security type, gateway context, custom-port stability, and roaming path changes.</p></article>
+          <article class="card step"><h3>Share only when needed</h3><p>Reports stay on your device unless you explicitly share them from iOS.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container split">
+        <div class="section-head">
+          <h2>Know whether the problem is internet, LAN, or roaming</h2>
+          <p>A home or office WiFi issue can come from broadband, DNS, router WAN, local device reachability, weak signal, or a sticky client attached to the wrong access point.</p>
+          <p>WiFi Health Check separates those signals into small reports you can compare across locations.</p>
+        </div>
+        <div class="report-panel">
+          <div class="metric"><span>Public website connectivity</span><strong>Reachable</strong></div>
+          <div class="metric"><span>Gateway address</span><strong>Detected</strong></div>
+          <div class="metric"><span>Gateway TCP probe</span><strong>Supporting only</strong></div>
+          <div class="metric"><span>Custom LAN target</span><strong>TCP port test</strong></div>
+          <div class="metric"><span>WiFi security type</span><strong>Open/WEP/Personal/Enterprise</strong></div>
+          <div class="metric"><span>Roaming path</span><strong>SSID/BSSID sequence</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container split">
+        <div class="section-head">
+          <h2>Privacy-first by design</h2>
+          <p>WiFi Health Check is a local diagnostic app. It does not require an account, does not upload diagnostic history, and does not run a cloud service for your WiFi data.</p>
+          <div class="cta-row">
+            <a class="button secondary" href="/privacy/">Read Privacy Policy</a>
+          </div>
+        </div>
+        <div class="card">
+          <ul class="check-list">
+            <li>No account registration</li>
+            <li>No cloud sync for diagnostic reports</li>
+            <li>No ads or third-party tracking</li>
+            <li>Location permission is used only because iOS requires it for WiFi SSID, BSSID, and related current-network access</li>
+            <li>Reports leave the device only when you choose to share them</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="faq">
+          <details><summary>Why does the app ask for Location permission?</summary><p>iOS gates WiFi SSID, BSSID, and current-network details behind Location permission and WiFi information entitlement support. The app uses that access to display the connected WiFi name, node identifier, and security type when available.</p></details>
+          <details><summary>Does a failed gateway TCP probe mean my internet is down?</summary><p>No. Routers can use custom ports or close common ports. WiFi Health Check uses public website reachability as the main internet connectivity signal and keeps gateway TCP status as supporting context.</p></details>
+          <details><summary>What does BSSID unavailable mean?</summary><p>It means iOS did not provide the WiFi node identifier to the app. This can happen on simulator, cellular, missing permission, entitlement limitations, or system privacy restrictions.</p></details>
+          <details><summary>Can the app show WiFi signal strength or channel?</summary><p>iOS does not provide reliable RSSI, channel, frequency band, channel width, or PHY rate to ordinary App Store apps. WiFi Health Check shows the WiFi details iOS allows, then uses connectivity, DNS, TCP, latency, timeout, and roaming behavior to diagnose real network experience.</p></details>
+          <details><summary>Can I test a custom gateway or NAS port?</summary><p>Yes. The LAN TCP stability test lets you enter an IP address and TCP port for repeated connectivity sampling.</p></details>
+          <details><summary>Does this replace long-term monitoring?</summary><p>No. It is a foreground local diagnostic tool. Use OpsHome NOC if you need continuous uptime, Docker, Synology, Proxmox, Linux host, or private infrastructure monitoring.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container ops">
+        <h2>Need continuous infrastructure monitoring?</h2>
+        <p>WiFi Health Check is for local foreground diagnosis. OpsHome NOC is built for ongoing monitoring of services, Docker, Synology, Proxmox, Linux hosts, private endpoints, alerts, and history.</p>
+        <div class="cta-row">
+          <a class="button primary" href="https://app.opshome.run/">Open OpsHome NOC</a>
+          <a class="button secondary" href="https://opshome.run/">Visit OpsHome</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container">
+        <h2>Start with a local WiFi health report</h2>
+        <p class="lead" style="margin-left:auto;margin-right:auto;">Free. Local-only. Built for quick troubleshooting.</p>
+        <div class="cta-row" style="justify-content:center;">
+          <a class="button primary" href="#download">Download on the App Store</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><strong>WiFi Health Check</strong><br>Local WiFi and LAN diagnostics</div>
+      <nav class="footer-links">
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/support/">Support</a>
+        <a href="/about/">About</a>
+        <a href="https://app.opshome.run/">OpsHome NOC</a>
+      </nav>
+      <div class="copyright">OpsHome</div>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>
