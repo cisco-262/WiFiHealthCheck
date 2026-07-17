@@ -12,4 +12,16 @@
   <url>
     <loc>https://wifi.opshome.run/about/</loc>
   </url>
+  <url>
+    <loc>https://wifi.opshome.run/zh-cn/</loc>
+  </url>
+  <url>
+    <loc>https://wifi.opshome.run/zh-cn/privacy/</loc>
+  </url>
+  <url>
+    <loc>https://wifi.opshome.run/zh-cn/support/</loc>
+  </url>
+  <url>
+    <loc>https://wifi.opshome.run/zh-cn/about/</loc>
+  </url>
 </urlset>
