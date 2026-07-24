@@ -17,4 +17,4 @@ Static marketing and support site for WiFi Health Check.
 
 The current canonical domain is set to `https://wifi.opshome.run/`.
 
-The App Store download button uses `#download` as a placeholder until the final App Store URL is available.
+The App Store download button points to `https://apps.apple.com/us/app/wifi-healthcheck/id6791147190`.
