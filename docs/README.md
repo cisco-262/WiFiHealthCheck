@@ -497,24 +497,6 @@ WiFi Health Check 已在 App Store 上架，面向 iPhone 提供。
 
 ---
 
-## Website Repository
-
-This repository contains the static marketing, privacy, support, and product information website for WiFi Health Check.
-
-本仓库包含 WiFi Health Check 的静态产品展示、隐私政策、支持和产品介绍网站。
-
-### Published Pages
-
-| Path | Purpose |
-| --- | --- |
-| `/` | English product homepage |
-| `/zh-cn/` | Simplified Chinese product homepage |
-| `/privacy/` | Privacy policy |
-| `/support/` | Product support and troubleshooting |
-| `/about/` | Product and OpsHome background |
-
-
-
 **Free. Local-only. Built for quick troubleshooting.**  
 **免费。本地优先。为快速排障而设计。**
 
