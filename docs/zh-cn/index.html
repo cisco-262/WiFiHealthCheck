@@ -1,17 +1,17 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>WiFi Health Check - iPhone 鏈湴 WiFi 涓庡眬鍩熺綉璇婃柇</title>
-  <meta name="description" content="WiFi Health Check 鏄竴娆惧厤璐圭殑 iPhone 鏈湴璇婃柇搴旂敤锛岀敤浜庝竴閿綉缁滄娴嬨€乄iFi SSID/BSSID 鍜屽畨鍏ㄧ被鍨嬨€佸眬鍩熺綉 TCP 绋冲畾鎬с€佺綉鍏充俊鎭拰婕父鎶ュ憡銆?>
+  <title>WiFi Health Check - iPhone 本地 WiFi 与局域网诊断</title>
+  <meta name="description" content="WiFi Health Check 是一款免费的 iPhone 本地诊断应用，用于一键网络检测、WiFi SSID/BSSID 和安全类型、局域网 TCP 稳定性、网关信息和漫游报告。">
   <link rel="canonical" href="https://wifi.opshome.run/zh-cn/">
   <link rel="alternate" hreflang="en" href="https://wifi.opshome.run/">
   <link rel="alternate" hreflang="zh-CN" href="https://wifi.opshome.run/zh-cn/">
   <link rel="alternate" hreflang="x-default" href="https://wifi.opshome.run/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="WiFi Health Check - iPhone 鏈湴 WiFi 涓庡眬鍩熺綉璇婃柇">
-  <meta property="og:description" content="鏈湴浼樺厛鐨?iPhone WiFi 璇婃柇锛氬叕缃戣繛閫氭€с€乄iFi 瀹夊叏绫诲瀷銆佸眬鍩熺綉 TCP 绋冲畾鎬с€佺綉鍏充俊鎭拰婕父鎶ュ憡銆?>
+  <meta property="og:title" content="WiFi Health Check - iPhone 本地 WiFi 与局域网诊断">
+  <meta property="og:description" content="WiFi Health Check 是一款免费的 iPhone 本地诊断应用，用于一键网络检测、WiFi SSID/BSSID 和安全类型、局域网 TCP 稳定性、网关信息和漫游报告。">
   <meta property="og:url" content="https://wifi.opshome.run/zh-cn/">
   <meta property="og:image" content="https://wifi.opshome.run/assets/images/og.png">
   <meta property="og:image:width" content="1536">
@@ -28,16 +28,16 @@
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="/zh-cn/" aria-label="WiFi Health Check 绠€浣撲腑鏂囬椤?><img src="/assets/images/app-icon.png" width="34" height="34" alt="WiFi Health Check app icon" decoding="async"><span>WiFi Health Check</span></a>
+      <a class="brand" href="/zh-cn/" aria-label="WiFi Health Check 简体中文首页"><img src="/assets/images/app-icon.png" width="34" height="34" alt="WiFi Health Check app icon" decoding="async"><span>WiFi Health Check</span></a>
       <nav class="nav-links" data-nav-links>
-        <a href="#features">鍔熻兘</a>
-        <a href="#how-it-works">宸ヤ綔鏂瑰紡</a>
-        <a href="/zh-cn/privacy/">闅愮</a>
-        <a href="/zh-cn/support/">鏀寔</a>
+        <a href="/zh-cn/#features">功能</a>
+        <a href="/zh-cn/#how-it-works">工作方式</a>
+        <a href="/zh-cn/privacy/">隐私</a>
+        <a href="/zh-cn/support/">支持</a>
         <a href="https://app.opshome.run/">OpsHome NOC</a>
-        <a class="button primary" href="https://apps.apple.com/us/app/wifi-healthcheck/id6791147190" target="_blank" rel="noopener">涓嬭浇</a>
+        <a class="button primary" href="https://apps.apple.com/us/app/wifi-healthcheck/id6791147190" target="_blank" rel="noopener">下载</a>
       </nav>
-      <div class="nav-tools"><div class="language-switch" aria-label="璇█"><a href="/" hreflang="en">EN</a><a class="active" href="/zh-cn/" hreflang="zh-CN" lang="zh-CN" aria-current="page">涓?/a></div><button class="menu-button" type="button" aria-label="鎵撳紑瀵艰埅" aria-expanded="false" data-menu-button>鑿滃崟</button></div>
+      <div class="nav-tools"><div class="language-switch" aria-label="语言"><a href="/" hreflang="en">EN</a><a class="active" href="/zh-cn/" hreflang="zh-CN" lang="zh-CN" aria-current="page">中</a></div><button class="menu-button" type="button" aria-label="打开导航" aria-expanded="false" data-menu-button>菜单</button></div>
     </div>
   </header>
   <main>
@@ -45,28 +45,42 @@
       <div class="container hero-grid">
         <div>
           <p class="eyebrow">WiFi Health Check</p>
-          <h1>鐢?iPhone 蹇€熻瘖鏂?WiFi 闂</h1>
-          <p class="lead">杩愯鏈湴 WiFi 鍜屽眬鍩熺綉妫€娴嬶紝鏌ョ湅鍏綉杩為€氭€с€乄iFi 瀹夊叏绫诲瀷銆佺綉鍏充俊鎭€乀CP 绋冲畾鎬у拰婕父琛屼负銆傛棤闇€璐﹀彿锛屼笉涓婁紶璇婃柇鍘嗗彶銆?/p>
-          <div class="cta-row"><a class="button primary" href="https://apps.apple.com/us/app/wifi-healthcheck/id6791147190" id="download" target="_blank" rel="noopener">鍦?App Store 涓嬭浇</a><a class="button secondary" href="#features">浜嗚В鍔熻兘</a></div>
-          <ul class="trust-tags" aria-label="浜у搧浜偣"><li>App Store 宸蹭笂鏋?/li><li>鏃犻渶璐﹀彿</li><li>涓嶄笂浼犳姤鍛?/li><li>鍏綉杩為€氭€?/li><li>WiFi 瀹夊叏绫诲瀷</li><li>LAN TCP 绋冲畾鎬?/li><li>婕父鎶ュ憡</li></ul>
+          <h1>用 iPhone 诊断 WiFi 问题</h1>
+          <p class="lead">无需账号即可在本地执行 WiFi 与局域网检查，查看互联网连通性、WiFi 安全类型、网关信息、TCP 稳定性和漫游行为。</p>
+          <div class="cta-row"><a class="button primary" href="https://apps.apple.com/us/app/wifi-healthcheck/id6791147190" id="download" target="_blank" rel="noopener">在 App Store 下载</a><a class="button secondary" href="#features">了解更多</a></div>
+          <ul class="trust-tags" aria-label="产品亮点"><li>已上架 App Store</li><li>无需账号</li><li>不上传到云端</li><li>公网连通性检查</li><li>WiFi 安全类型</li><li>局域网 TCP 稳定性</li><li>漫游报告</li></ul>
         </div>
-        <figure class="hero-visual"><img src="/assets/images/IMG_0540-portrait.png" width="1419" height="2796" alt="WiFi Health Check iPhone 搴旂敤棣栭〉鎴浘" fetchpriority="high" decoding="async"></figure>
+        <figure class="hero-visual"><img src="/assets/images/IMG_0540-portrait.png" width="1419" height="2796" alt="WiFi Health Check iPhone 应用首页" fetchpriority="high" decoding="async"></figure>
       </div>
     </section>
-    <section id="features"><div class="container"><div class="section-head"><h2>闈㈠悜鐪熷疄 WiFi 鎺掗殰鐨勪笓娉ㄥ伐鍏?/h2><p>WiFi Health Check 鏄墠鍙版湰鍦拌瘖鏂伐鍏凤紝涓嶆槸鍚庡彴鐩戞帶鎴栨姄鍖呭伐鍏枫€?/p></div><div class="grid features">
-      <article class="card"><div class="icon">1</div><h3>涓€閿綉缁滆瘖鏂?/h3><p>鍦ㄤ竴浠芥姤鍛婁腑妫€鏌ュ叕缃戠綉绔欒繛閫氭€с€丏NS 琛屼负銆佹湰鏈?IP銆乄iFi 瀹夊叏绫诲瀷銆佺綉鍏冲湴鍧€鍜岀綉鍏?TCP 鎺㈡祴涓婁笅鏂囥€?/p></article>
-      <article class="card"><div class="icon">T</div><h3>灞€鍩熺綉 TCP 绋冲畾鎬?/h3><p>瀵硅矾鐢卞櫒銆丯AS銆佹墦鍗版満銆丳roxmox 涓绘満鎴?AP 绠＄悊鍦板潃杩涜鑷畾涔?TCP 绔彛杩炵画娴嬭瘯銆?/p></article>
-      <article class="card"><div class="icon">R</div><h3>WiFi 婕父鎶ュ憡</h3><p>绉诲姩杩囩▼涓褰?SSID 鍜?BSSID 鏍锋湰锛屾煡鐪嬩粠涓€涓?WiFi 鑺傜偣鍒板彟涓€涓妭鐐圭殑璺緞銆?/p></article>
-      <article class="card"><div class="icon">W</div><h3>WiFi 瀹夊叏绫诲瀷</h3><p>褰?iOS 鎻愪緵鏃舵樉绀哄綋鍓?WiFi 鐨勫畨鍏ㄧ被鍨嬶紝鍖呮嫭寮€鏀俱€乄EP銆佷釜浜哄拰浼佷笟缃戠粶銆?/p></article>
-      <article class="card"><div class="icon">G</div><h3>缃戝叧淇℃伅</h3><p>鏄剧ず褰撳墠缃戝叧鍦板潃浣滀负杈呭姪淇℃伅锛屼笉鎶婄綉鍏崇鍙ｅ叧闂洿鎺ュ垽瀹氫负浜掕仈缃戞晠闅溿€?/p></article>
-      <article class="card"><div class="icon">S</div><h3>鍙垎浜枃鏈姤鍛?/h3><p>璇婃柇銆佺ǔ瀹氭€у拰婕父缁撴灉淇濆瓨鍦ㄦ湰鏈猴紝闇€瑕佹眰鍔╂椂鍐嶄富鍔ㄥ垎浜€?/p></article>
+    <section id="features"><div class="container"><div class="section-head"><h2>面向真实 WiFi 排障的专注工具</h2><p>WiFi Health Check 用于快速前台诊断，不是后台监控工具，也不做抓包。</p></div><div class="grid features">
+      <article class="card"><div class="icon">1</div><h3>一键网络诊断</h3><p>在一份报告中检查公网网站连通性、DNS 表现、本机 IP、WiFi 安全类型、网关地址和网关 TCP 探测上下文。</p></article>
+      <article class="card"><div class="icon">T</div><h3>局域网 TCP 稳定性测试</h3><p>使用自定义 TCP 端口和重复采样测试路由器、NAS、打印机、Proxmox 主机或 AP 管理地址。</p></article>
+      <article class="card"><div class="icon">R</div><h3>WiFi 漫游报告</h3><p>移动时记录 SSID 与 BSSID 样本，然后查看从一个 WiFi 节点切换到另一个节点的路径。</p></article>
+      <article class="card"><div class="icon">W</div><h3>WiFi 安全上下文</h3><p>当 iOS 提供信息时，显示当前 WiFi 安全类型，包括开放、WEP、个人和企业网络。</p></article>
+      <article class="card"><div class="icon">G</div><h3>网关信息</h3><p>显示当前网关地址作为辅助上下文，不会把网关端口关闭误判为互联网故障。</p></article>
+      <article class="card"><div class="icon">S</div><h3>可分享文本报告</h3><p>在本地保存诊断、稳定性和漫游结果，需要协助时再分享清晰的文本报告。</p></article>
     </div></div></section>
-    <section id="how-it-works"><div class="container"><div class="section-head"><h2>宸ヤ綔鏂瑰紡</h2></div><div class="grid steps"><article class="card step"><h3>杩炴帴 WiFi 鍚庢墦寮€搴旂敤</h3><p>璇蜂娇鐢ㄧ湡瀹?iPhone銆俰OS 鍙兘瑕佹眰浣嶇疆鏉冮檺鎵嶈兘鎻愪緵 SSID銆丅SSID 鍜屽畨鍏ㄧ被鍨嬨€?/p></article><article class="card step"><h3>閫夋嫨鍚堥€傛祴璇?/h3><p>鏍规嵁闂閫夋嫨涓€閿瘖鏂€丩AN TCP 绋冲畾鎬ф垨婕父娴嬭瘯銆?/p></article><article class="card step"><h3>鏌ョ湅鏈湴缁撴灉</h3><p>鐞嗚В鍏綉杩為€氭€с€丏NS銆佺綉鍏炽€乀CP 瓒呮椂鍜屾极娓歌矾寰勫彉鍖栥€?/p></article><article class="card step"><h3>闇€瑕佹椂鍐嶅垎浜?/h3><p>鎶ュ憡榛樿鐣欏湪璁惧涓婏紝鍙湁浣犻€氳繃 iOS 鍒嗕韩鏃舵墠浼氱寮€璁惧銆?/p></article></div></div></section>
-    <section><div class="container split"><div class="section-head"><h2>鍖哄垎浜掕仈缃戙€佸眬鍩熺綉鍜屾极娓搁棶棰?/h2><p>WiFi 闂鍙兘鏉ヨ嚜瀹藉甫銆丏NS銆佽矾鐢卞櫒 WAN銆佸眬鍩熺綉璁惧銆佸急淇″彿鎴栧鎴风榛忓湪閿欒 AP 涓娿€俉iFi Health Check 鎶婅繖浜涗俊鍙锋媶鎴愬彲姣旇緝鐨勫皬鎶ュ憡銆?/p></div><div class="report-panel"><div class="metric"><span>鍏綉杩為€氭€?/span><strong>鍙揪</strong></div><div class="metric"><span>缃戝叧鍦板潃</span><strong>宸叉娴?/strong></div><div class="metric"><span>缃戝叧 TCP 鎺㈡祴</span><strong>浠呬綔杈呭姪</strong></div><div class="metric"><span>鑷畾涔?LAN 鐩爣</span><strong>TCP 绔彛娴嬭瘯</strong></div><div class="metric"><span>WiFi 瀹夊叏绫诲瀷</span><strong>Open/WEP/Personal/Enterprise</strong></div><div class="metric"><span>婕父璺緞</span><strong>SSID/BSSID 搴忓垪</strong></div></div></div></section>
-    <section><div class="container ops"><h2>闇€瑕佹寔缁熀纭€璁炬柦鐩戞帶锛?/h2><p>WiFi Health Check 鐢ㄤ簬鏈湴鍓嶅彴璇婃柇銆侽psHome NOC 鐢ㄤ簬鏈嶅姟銆丏ocker銆丼ynology銆丳roxmox銆丩inux 涓绘満銆佺鏈夌鐐广€佸憡璀﹀拰鍘嗗彶鐨勬寔缁洃鎺с€?/p><div class="cta-row"><a class="button primary" href="https://app.opshome.run/">鎵撳紑 OpsHome NOC</a><a class="button secondary" href="https://ssl.opshome.run/zh-cn/">SSL Reminder</a></div></div></section>
-    <section class="final-cta"><div class="container"><h2>浠庝竴浠芥湰鍦?WiFi 鍋ュ悍鎶ュ憡寮€濮?/h2><p class="lead" style="margin-left:auto;margin-right:auto;">鍏嶈垂銆傛湰鍦颁紭鍏堛€備负蹇€熸帓闅滆€岃璁°€?/p><div class="cta-row" style="justify-content:center;"><a class="button primary" href="https://apps.apple.com/us/app/wifi-healthcheck/id6791147190" target="_blank" rel="noopener">鍦?App Store 涓嬭浇</a></div></div></section>
+    <section id="how-it-works"><div class="container"><div class="section-head"><h2>WiFi Health Check 如何工作</h2></div><div class="grid steps">
+      <article class="card step"><h3>在 WiFi 下打开 App</h3><p>使用连接到 WiFi 的真实 iPhone。iOS 可能需要位置权限才能提供 SSID、BSSID 和安全类型。</p></article>
+      <article class="card step"><h3>运行专注测试</h3><p>根据问题选择一键诊断、局域网 TCP 稳定性或漫游测试。</p></article>
+      <article class="card step"><h3>查看本地结果</h3><p>理解公网可达性、WiFi 安全类型、网关上下文、自定义端口稳定性和漫游路径变化。</p></article>
+      <article class="card step"><h3>只在需要时分享</h3><p>报告会保留在你的设备上，除非你明确通过 iOS 分享。</p></article>
+    </div></div></section>
+    <section><div class="container split"><div class="section-head"><h2>判断问题来自互联网、局域网还是漫游</h2><p>家庭或办公室 WiFi 问题可能来自宽带、DNS、路由器 WAN、局域网设备可达性、弱信号，或客户端粘在错误的接入点上。</p><p>WiFi Health Check 会把这些信号拆成小报告，方便你在不同位置之间对比。</p></div><div class="report-panel"><div class="metric"><span>公网网站连通性</span><strong>可达</strong></div><div class="metric"><span>网关地址</span><strong>已检测</strong></div><div class="metric"><span>网关 TCP 探测</span><strong>仅作辅助</strong></div><div class="metric"><span>自定义局域网目标</span><strong>TCP 端口测试</strong></div><div class="metric"><span>WiFi 安全类型</span><strong>开放/WEP/个人/企业</strong></div><div class="metric"><span>漫游路径</span><strong>SSID/BSSID 序列</strong></div></div></div></section>
+    <section><div class="container split"><div class="section-head"><h2>隐私优先设计</h2><p>WiFi Health Check 是本地诊断 App。它不要求注册账号，不上传诊断历史，也不会为你的 WiFi 数据运行云服务。</p><div class="cta-row"><a class="button secondary" href="/zh-cn/privacy/">阅读隐私政策</a></div></div><div class="card"><ul class="check-list"><li>无需账号注册</li><li>诊断报告不做云同步</li><li>无广告，无第三方追踪</li><li>位置权限仅因 iOS 要求才用于读取 WiFi SSID、BSSID 和当前网络相关信息</li><li>只有当你选择分享时，报告才会离开设备</li></ul></div></div></section>
+    <section><div class="container"><div class="section-head"><h2>常见问题</h2></div><div class="faq"><details><summary>为什么 App 要求位置权限？</summary><p>iOS 将 WiFi SSID、BSSID 和当前网络详情放在位置权限以及 WiFi 信息能力之后。App 只用这些信息显示当前连接的 WiFi 名称、节点标识和安全类型。</p></details><details><summary>网关 TCP 探测失败是否代表断网？</summary><p>不是。路由器可能使用自定义端口或关闭常见端口。WiFi Health Check 使用公网网站可达性作为主要互联网信号，网关 TCP 状态仅作辅助上下文。</p></details><details><summary>BSSID 不可用是什么意思？</summary><p>这表示 iOS 没有向 App 提供 WiFi 节点标识。原因可能是模拟器、蜂窝网络、缺少权限、能力限制或系统隐私限制。</p></details><details><summary>App 能显示 WiFi 信号强度或信道吗？</summary><p>iOS 不会向普通 App Store 应用可靠提供 RSSI、信道、频段、信道宽度或 PHY 速率。WiFi Health Check 会展示 iOS 允许的信息，并用连通性、DNS、TCP、延迟、超时和漫游行为诊断真实网络体验。</p></details><details><summary>可以测试自定义网关或 NAS 端口吗？</summary><p>可以。局域网 TCP 稳定性测试允许输入 IP 地址和 TCP 端口进行重复连通性采样。</p></details><details><summary>它能替代长期监控吗？</summary><p>不能。它是前台本地诊断工具。如果需要持续可用性、Docker、Synology、Proxmox、Linux 主机或私有基础设施监控，请使用 OpsHome NOC。</p></details></div></div></section>
+    <section><div class="container ops"><h2>需要持续基础设施监控？</h2><p>WiFi Health Check 用于本地前台诊断。OpsHome NOC 用于持续监控服务、Docker、Synology、Proxmox、Linux 主机、私有端点、告警和历史数据。</p><div class="cta-row"><a class="button primary" href="https://app.opshome.run/">打开 OpsHome NOC</a><a class="button secondary" href="https://opshome.run/">访问 OpsHome</a></div></div></section>
+    <section class="final-cta"><div class="container"><h2>从一份本地 WiFi 健康报告开始</h2><p class="lead" style="margin-left:auto;margin-right:auto;">免费。本地优先。专为快速排障而构建。</p><div class="cta-row" style="justify-content:center;"><a class="button primary" href="https://apps.apple.com/us/app/wifi-healthcheck/id6791147190" target="_blank" rel="noopener">在 App Store 下载</a></div></div></section>
   </main>
-  <footer class="site-footer"><div class="container footer-grid"><div><strong>WiFi Health Check</strong><br>鏈湴 WiFi 涓庡眬鍩熺綉璇婃柇</div><nav class="footer-links"><a href="/zh-cn/privacy/">闅愮鏀跨瓥</a><a href="/zh-cn/support/">鏀寔</a><a href="/zh-cn/about/">鍏充簬</a><a href="https://app.opshome.run/">OpsHome NOC</a><a href="https://ssl.opshome.run/zh-cn/">SSL Reminder</a><a href="https://domain.opshome.run/">Domain Health Inspector</a><a href="https://fgt.opshome.run/">NOC for FGT</a><a href="/">English</a></nav><div class="copyright">OpsHome</div></div></footer>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brandline"><img src="/assets/images/app-logo.png" alt="WiFi Health Check logo" width="44" height="44" loading="lazy" decoding="async"><div><strong>WiFi Health Check</strong><span>本地 WiFi 与局域网诊断</span></div></div>
+      <nav class="footer-links"><a href="/zh-cn/privacy/">隐私政策</a><a href="/zh-cn/support/">支持</a><a href="/zh-cn/about/">关于</a><a href="https://app.opshome.run/">OpsHome NOC</a><a href="https://ssl.opshome.run/zh-cn/">SSL Reminder</a><a href="https://domain.opshome.run/">Domain Health Inspector</a><a href="https://fgt.opshome.run/">NOC for FGT</a><a href="/">English</a></nav>
+      <div class="copyright">&copy; 2026 OpsHome</div>
+    </div>
+  </footer>
   <script src="/assets/js/main.js" defer></script>
 </body>
 </html>
