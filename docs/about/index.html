@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -13,22 +13,23 @@
   <meta property="og:title" content="About WiFi Health Check">
   <meta property="og:description" content="Learn about WiFi Health Check and how it fits alongside OpsHome NOC.">
   <meta property="og:url" content="https://wifi.opshome.run/about/">
-  <meta property="og:image" content="https://wifi.opshome.run/assets/images/og.png">
-  <meta property="og:image:width" content="1536">
-  <meta property="og:image:height" content="1024">
+  <meta property="og:image" content="https://wifi.opshome.run/assets/images/og-1200x630.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://wifi.opshome.run/assets/images/og.png">
+  <meta name="twitter:image" content="https://wifi.opshome.run/assets/images/og-1200x630.jpg">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16.png">
   <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=20260813-pagespeed">
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="/"><img src="/assets/images/app-icon.png" width="34" height="34" alt="WiFi Health Check app icon"><span>WiFi Health Check</span></a>
+      <a class="brand" href="/"><img src="/assets/images/app-icon-96.webp" width="34" height="34" alt="WiFi Health Check app icon"><span>WiFi Health Check</span></a>
       <nav class="nav-links" data-nav-links>
         <a href="/#features">Features</a>
         <a href="/#how-it-works">How It Works</a>
@@ -55,10 +56,18 @@
     </section>
     <section class="page-content container">
       <h2>What WiFi Health Check is</h2>
-      <p>WiFi Health Check helps users understand common WiFi issues from their iPhone. It checks public internet connectivity, current WiFi context such as SSID, BSSID, and security type, local gateway context, custom LAN TCP reachability, and WiFi roaming behavior.</p>
+      <p>WiFi Health Check helps users understand common WiFi issues from their iPhone. It checks public internet connectivity, DNS behavior, current WiFi context such as SSID, BSSID, and security type, local gateway context, LAN device discovery, custom LAN TCP reachability, and WiFi roaming behavior.</p>
 
       <h2>Why it exists</h2>
       <p>WiFi problems are often hard to describe. A simple local report can show whether the issue is external connectivity, a LAN endpoint, gateway configuration, WiFi security context, or roaming between access points.</p>
+
+
+      <h2>What the app intentionally does not do</h2>
+      <p>WiFi Health Check is not a packet-capture tool and it does not claim to expose radio metrics that ordinary App Store apps cannot reliably obtain from iOS, such as RSSI, channel, frequency band, channel width, or PHY rate. Instead, it focuses on observable connectivity, DNS, TCP, device discovery, latency, timeout, and roaming behavior.</p>
+
+      <h2>Official App Store listing</h2>
+      <p>WiFi Health Check is available on the Apple App Store. The App Store currently lists the product as <strong>WiFi HealthCheck</strong>; it is the same application presented here as WiFi Health Check.</p>
+      <p><a href="https://apps.apple.com/us/app/wifi-healthcheck/id6791147190" target="_blank" rel="noopener">View WiFi Health Check on the App Store</a></p>
 
       <h2>Part of the OpsHome product family</h2>
       <p>OpsHome builds practical tools for operations visibility. WiFi Health Check covers foreground local diagnosis. OpsHome NOC covers broader uptime monitoring, private services, Docker Probe, Synology, Proxmox, Linux hosts, Docker containers, alerts, and historical views.</p>
@@ -70,11 +79,11 @@
   </main>
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div class="footer-brandline"><img src="/assets/images/app-logo.png" alt="WiFi Health Check logo" width="44" height="44" loading="lazy" decoding="async"><div><strong>WiFi Health Check</strong><span>Local WiFi and LAN diagnostics</span></div></div>
+      <div class="footer-brandline"><img src="/assets/images/app-logo-96.webp" alt="WiFi Health Check logo" width="44" height="44" loading="lazy" decoding="async"><div><strong>WiFi Health Check</strong><span>Local WiFi and LAN diagnostics</span></div></div>
       <nav class="footer-links"><a href="/privacy/">Privacy Policy</a><a href="/support/">Support</a><a href="/about/">About</a><a href="https://app.opshome.run/">OpsHome NOC</a><a href="https://ssl.opshome.run/">SSL Reminder</a><a href="https://domain.opshome.run/">Domain Health Inspector</a><a href="https://fgt.opshome.run/">NOC for FGT</a><a href="/zh-cn/about/">简体中文</a></nav>
       <div class="copyright">&copy; 2026 OpsHome</div>
     </div>
   </footer>
-  <script src="/assets/js/main.js" defer></script>
+  <script src="/assets/js/main.js?v=20260813-pagespeed" defer></script>
 </body>
 </html>

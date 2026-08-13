@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://wifi.opshome.run/</loc>
-  </url>
-  <url>
-    <loc>https://wifi.opshome.run/privacy/</loc>
+    <lastmod>2026-08-12</lastmod>
   </url>
   <url>
     <loc>https://wifi.opshome.run/support/</loc>
+    <lastmod>2026-08-12</lastmod>
   </url>
   <url>
     <loc>https://wifi.opshome.run/about/</loc>
+    <lastmod>2026-08-12</lastmod>
   </url>
   <url>
     <loc>https://wifi.opshome.run/zh-cn/</loc>
-  </url>
-  <url>
-    <loc>https://wifi.opshome.run/zh-cn/privacy/</loc>
+    <lastmod>2026-08-12</lastmod>
   </url>
   <url>
     <loc>https://wifi.opshome.run/zh-cn/support/</loc>
+    <lastmod>2026-08-12</lastmod>
   </url>
   <url>
     <loc>https://wifi.opshome.run/zh-cn/about/</loc>
+    <lastmod>2026-08-12</lastmod>
   </url>
 </urlset>
