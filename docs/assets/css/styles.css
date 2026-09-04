@@ -541,8 +541,8 @@ section { padding: 74px 0; }
 .showcase-image img {
   display: block;
   width: auto;
-  max-width: 360px;
-  max-height: 620px;
+  max-width: 460px;
+  max-height: 720px;
   margin: 0 auto;
   object-fit: contain;
   filter: drop-shadow(0 16px 30px rgba(0,0,0,0.12));
@@ -590,5 +590,22 @@ section { padding: 74px 0; }
   .hero-title {
     font-size: clamp(38px, 10vw, 48px);
     line-height: 1.1;
+  }
+}
+
+/* Feature hierarchy refresh v1.4 */
+.feature-group-title {
+  margin: 42px 0 18px;
+  font-size: 1.35rem;
+  letter-spacing: -0.02em;
+}
+
+.card.featured {
+  grid-column: span 2;
+}
+
+@media (max-width: 900px) {
+  .card.featured {
+    grid-column: span 1;
   }
 }

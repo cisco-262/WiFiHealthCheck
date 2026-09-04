@@ -98,8 +98,8 @@
       <div class="container hero-grid">
         <div>
           <p class="eyebrow">WiFi Health Check</p>
-          <h1>WiFi Health Check — Diagnose WiFi Problems from Your iPhone</h1>
-          <p class="lead">Run local-only WiFi and LAN checks for internet reachability, IPv4/IPv6 connectivity, DNS behavior, LAN device discovery, WiFi security type, gateway information, TCP stability, and roaming behavior without creating an account.</p>
+          <h1>WiFi Health Check — Understand and Troubleshoot Your Home WiFi Network</h1>
+          <p class="lead">Check WiFi, DNS, internet connectivity, and local network services directly from your iPhone. Find the cause of common home network problems while keeping your diagnostic data local.</p>
           <div class="cta-row">
             <a class="button primary" href="https://apps.apple.com/us/app/wifi-healthcheck/id6791147190" id="download" target="_blank" rel="noopener">Download on the App Store</a>
             <a class="button secondary" href="#features">Learn More</a>
@@ -124,17 +124,30 @@
     <section id="features">
       <div class="container">
         <div class="section-head">
-          <h2>Focused tools for real WiFi troubleshooting</h2>
-          <p>WiFi Health Check is built for quick front-of-device diagnostics, not background monitoring or packet capture.</p>
+          <h2>Everyday WiFi checks and home network discovery</h2>
+          <p>Understand what is happening on your network with practical diagnostics designed for home users, homelab enthusiasts, and IT professionals.</p>
         </div>
+
+        <h3 class="feature-group-title">Everyday WiFi Checks</h3>
         <div class="grid features">
-          <article class="card"><div class="icon">1</div><h3>One-tap network diagnostic</h3><p>Check public website connectivity, the DNS server and resolved IP, the test domain and public target, local IP, WiFi security type, gateway address, and gateway TCP probe context in one report.</p></article>
-          <article class="card"><div class="icon">L</div><h3>LAN scan &amp; device discovery</h3><p>Scan the current WiFi subnet to discover local devices and common open service ports. Use the results to identify devices and services such as NAS, Proxmox, printers, file sharing, and web management interfaces.</p></article>
-          <article class="card"><div class="icon">T</div><h3>LAN TCP stability test</h3><p>Test a router, NAS, printer, Proxmox host, or AP management address using a custom TCP port and repeated samples.</p></article>
-          <article class="card"><div class="icon">R</div><h3>WiFi roaming report</h3><p>Record SSID and BSSID samples while moving, then review the path from one WiFi node to the next.</p></article>
-          <article class="card"><div class="icon">W</div><h3>WiFi security context</h3><p>Show the current WiFi security type when iOS provides it, including Open, WEP, Personal, and Enterprise networks.</p></article>
-          <article class="card"><div class="icon">G</div><h3>Gateway information</h3><p>See the current gateway address as supporting context without treating a closed gateway port as internet failure.</p></article>
-          <article class="card"><div class="icon">S</div><h3>Shareable text reports</h3><p>Save diagnostic, stability, and roaming results locally, then share clean text reports when you need help.</p></article>
+          <article class="card featured"><div class="icon">🌐</div><h3>Network Health Check</h3><p>Check WiFi connection, internet reachability, DNS status, gateway information, and network context in one report.</p></article>
+          <article class="card"><div class="icon">6</div><h3>IPv4 / IPv6 Connectivity</h3><p>Compare IPv4 and IPv6 availability to identify protocol-specific connectivity issues.</p></article>
+          <article class="card"><div class="icon">D</div><h3>DNS Diagnostic</h3><p>Review DNS resolution results and identify whether failures come from DNS or network connectivity.</p></article>
+        </div>
+
+        <h3 class="feature-group-title">Home Network Discovery</h3>
+        <div class="grid features">
+          <article class="card featured"><div class="icon">🖧</div><h3>LAN Scan &amp; Service Discovery</h3><p>Discover reachable devices and common local services using LAN scanning and Bonjour / mDNS, including SMB, SSH, WebDAV, HTTP and HTTPS.</p></article>
+          <article class="card"><div class="icon">📈</div><h3>LAN TCP Stability Test</h3><p>Test NAS devices, servers, routers, and other local endpoints with repeated TCP connection checks.</p></article>
+        </div>
+
+        <h3 class="feature-group-title">Advanced Tools</h3>
+        <div class="grid features">
+          <article class="card"><div class="icon">📶</div><h3>WiFi Roaming Report</h3><p>Record SSID and BSSID changes while moving between access points.</p></article>
+          <article class="card"><div class="icon">🔒</div><h3>WiFi Security Context</h3><p>View the current WiFi security type provided by iOS.</p></article>
+          <article class="card"><div class="icon">🚪</div><h3>Gateway Information</h3><p>View gateway address and local network context.</p></article>
+          <article class="card"><div class="icon">📄</div><h3>Diagnostic Reports &amp; History</h3><p>Review evidence and share troubleshooting results when needed.</p></article>
+          <article class="card"><div class="icon">🛡</div><h3>Local-first Privacy</h3><p>No account required. Diagnostic data stays on your device by default.</p></article>
         </div>
       </div>
     </section>
@@ -144,7 +157,7 @@
         <div>
           <p class="eyebrow">v1.4 New Feature</p>
           <h2>LAN Scan &amp; Bonjour / mDNS Service Discovery</h2>
-          <p class="lead">Discover local network services through standard Bonjour / mDNS discovery and TCP service checks. Built for better visibility of NAS, servers, printers, and other local devices.</p>
+          <p class="lead">Discover devices and common local services through LAN scanning, Bonjour / mDNS discovery, and TCP service checks. Built for better visibility of home NAS, servers, and other local devices.</p>
         </div>
         <figure class="showcase-image">
           <img src="/assets/images/wifi-healthcheck-lan-scan-bonjour.webp" alt="LAN Scan with Bonjour and mDNS service discovery">
@@ -248,7 +261,7 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brandline"><img src="/assets/images/app-logo-96.webp" alt="WiFi Health Check logo" width="44" height="44" loading="lazy" decoding="async"><div><strong>WiFi Health Check</strong><span>Local WiFi and LAN diagnostics</span></div></div>
-      <nav class="footer-links"><a href="/privacy/">Privacy Policy</a><a href="/support/">Support</a><a href="/about/">About</a><a href="https://app.opshome.run/">OpsHome NOC</a><a href="https://ssl.opshome.run/">SSL Reminder</a><a href="https://domain.opshome.run/">Domain Health Inspector</a><a href="https://fgt.opshome.run/">NOC for FGT</a><a href="/zh-cn/">简体中文</a></nav>
+      <nav class="footer-links"><a href="/privacy/">Privacy Policy</a><a href="/support/">Support</a><a href="/about/">About</a><a href="https://app.opshome.run/">OpsHome NOC</a><a href="https://ssl.opshome.run/">SSL Reminder</a><a href="https://domain.opshome.run/">Domain Health Inspector</a><a href="https://fgt.opshome.run/">NOC for FGT</a></nav>
       <div class="copyright">&copy; 2026 OpsHome</div>
     </div>
   </footer>
