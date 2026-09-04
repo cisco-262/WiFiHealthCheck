@@ -15,15 +15,16 @@ discovery.
 与局域网诊断应用，用于检查公网连通性、WiFi 安全类型、网关信息、TCP
 稳定性、漫游行为以及 Bonjour / mDNS 局域网服务发现。
 
-`<br>`{=html}
+<br>
 
-[![App
-Store](https://img.shields.io/badge/App_Store-Download-0D96F6?logo=apple&logoColor=white)](https://apps.apple.com/us/app/wifi-healthcheck/id6791147190)
+[![App Store](https://img.shields.io/badge/App_Store-Download-0D96F6?logo=apple&logoColor=white)](https://apps.apple.com/us/app/wifi-healthcheck/id6791147190)
 [![Website](https://img.shields.io/badge/Website-wifi.opshome.run-2EA866)](https://wifi.opshome.run)
+[![Platform](https://img.shields.io/badge/Platform-iPhone-lightgrey?logo=apple)](https://apps.apple.com/us/app/wifi-healthcheck/id6791147190)
 [![Privacy](https://img.shields.io/badge/Diagnostics-Local_Only-success)](https://wifi.opshome.run/privacy/)
+[![Account](https://img.shields.io/badge/Account-Not_Required-blue)](https://wifi.opshome.run)
 
-`<br>`{=html}
-:::
+<br>
+
 
 ------------------------------------------------------------------------
 
