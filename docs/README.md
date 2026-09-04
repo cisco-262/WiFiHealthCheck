@@ -1,4 +1,3 @@
-<div align="center">
 
 <img src="/docs/assets/images/app-logo-96.webp" alt="WiFi Health Check Logo" width="120">
 
