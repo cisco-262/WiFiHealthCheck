@@ -540,10 +540,12 @@ section { padding: 74px 0; }
 
 .showcase-image img {
   display: block;
-  width: 100%;
-  max-height: 720px;
+  width: auto;
+  max-width: 320px;
+  max-height: 560px;
+  margin: 0 auto;
   object-fit: contain;
-  filter: drop-shadow(0 20px 35px rgba(0,0,0,0.12));
+  filter: drop-shadow(0 16px 30px rgba(0,0,0,0.12));
 }
 
 .hero-visual img {
@@ -553,5 +555,18 @@ section { padding: 74px 0; }
 @media (max-width: 900px) {
   .showcase-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+/* v1.4 feature screenshot sizing */
+.hero-visual img {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .showcase-image img {
+    max-width: 260px;
+    max-height: 480px;
   }
 }
