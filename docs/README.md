@@ -73,7 +73,8 @@ platform.
                                       gateway information, and diagnostic
                                       summary.
 
-  LAN TCP stability test              Test selected local services using
+  IPv4 / IPv6 Connectivity Checks
+- LAN TCP stability test              Test selected local services using
                                       custom TCP ports and repeated
                                       samples.
 
