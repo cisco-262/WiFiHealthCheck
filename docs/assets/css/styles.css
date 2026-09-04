@@ -541,8 +541,8 @@ section { padding: 74px 0; }
 .showcase-image img {
   display: block;
   width: auto;
-  max-width: 320px;
-  max-height: 560px;
+  max-width: 360px;
+  max-height: 620px;
   margin: 0 auto;
   object-fit: contain;
   filter: drop-shadow(0 16px 30px rgba(0,0,0,0.12));
