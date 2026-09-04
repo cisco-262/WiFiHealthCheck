@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="/docs/assets/images/app-logo.png" alt="WiFi Health Check Logo" width="120">
+<img src="/docs/assets/images/app-logo-96.png" alt="WiFi Health Check Logo" width="120">
 
 
 # WiFi Health Check
