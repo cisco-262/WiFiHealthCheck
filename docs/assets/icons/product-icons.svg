@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="health" viewBox="0 0 24 24"><path d="M3 12h4l2-5 4 10 2-5h6"/><path d="M12 21a9 9 0 1 0-9-9"/></symbol>
+  <symbol id="ipv6" viewBox="0 0 24 24"><circle cx="7" cy="12" r="4"/><circle cx="17" cy="12" r="4"/><path d="M11 10h2M11 14h2M7 8V5M17 16v3"/></symbol>
+  <symbol id="dns" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/><circle cx="18.5" cy="5.5" r="1.5"/></symbol>
+  <symbol id="lan" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="5" rx="1"/><rect x="3" y="16" width="6" height="5" rx="1"/><rect x="15" y="16" width="6" height="5" rx="1"/><path d="M12 8v5M6 16v-3h12v3"/></symbol>
+  <symbol id="fingerprint" viewBox="0 0 24 24"><path d="M8 8a6 6 0 0 1 10 4c0 5-2 8-4 9M6 12a6 6 0 0 1 1-3M9 12a3 3 0 0 1 6 0c0 4-1 6-2 8M6 15c0 2-.5 3-1 4M9 15c0 3-1 5-2 6M12 12c0 4-.5 7-2 9"/></symbol>
+  <symbol id="tcp" viewBox="0 0 24 24"><path d="M4 18V9M10 18V5M16 18v-8M22 18H2"/><path d="m3 7 3-3 3 3M14 8l3-3 3 3"/></symbol>
+  <symbol id="roaming" viewBox="0 0 24 24"><path d="M3 9a13 13 0 0 1 18 0M6.5 12.5a8 8 0 0 1 11 0M10 16a3 3 0 0 1 4 0"/><path d="m17 18 2 2 3-4"/></symbol>
+  <symbol id="security" viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3 8-8 9-5-1-8-4-8-9V7z"/><path d="m8.5 12 2.2 2.2 4.8-5"/></symbol>
+  <symbol id="gateway" viewBox="0 0 24 24"><rect x="3" y="9" width="18" height="9" rx="2"/><path d="M7 13h.01M11 13h.01M15 13h2M8 9a5 5 0 0 1 8 0M10 6a3 3 0 0 1 4 0"/></symbol>
+  <symbol id="report" viewBox="0 0 24 24"><path d="M6 3h9l3 3v15H6z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></symbol>
+  <symbol id="privacy" viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3 8-8 9-5-1-8-4-8-9V7z"/><rect x="9" y="10" width="6" height="5" rx="1"/><path d="M10 10V9a2 2 0 0 1 4 0v1"/></symbol>
+  <symbol id="guidance" viewBox="0 0 24 24"><path d="M4 19h6M14 5h6M7 19c0-7 10-5 10-12"/><path d="m14 8 3-3 3 3"/><circle cx="4" cy="19" r="1"/></symbol>
+  <symbol id="verify" viewBox="0 0 24 24"><path d="M20 7v5h-5M4 17v-5h5"/><path d="M6 8a7 7 0 0 1 11-2l3 3M18 16a7 7 0 0 1-11 2l-3-3"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="widget" viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="3" width="8" height="5" rx="2"/><rect x="3" y="13" width="8" height="8" rx="2"/><rect x="13" y="10" width="8" height="11" rx="2"/></symbol>
+  <symbol id="home" viewBox="0 0 24 24"><path d="m3 11 9-8 9 8v10h-6v-6H9v6H3z"/><path d="M8 10a6 6 0 0 1 8 0M10 12a3 3 0 0 1 4 0"/></symbol>
+  <symbol id="server" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="7" rx="2"/><rect x="3" y="14" width="18" height="7" rx="2"/><path d="M7 7h.01M7 18h.01M11 7h6M11 18h6"/></symbol>
+  <symbol id="smart-home" viewBox="0 0 24 24"><path d="m3 11 9-8 9 8v10H3z"/><path d="M8 13a6 6 0 0 1 8 0M10 16a3 3 0 0 1 4 0M12 19h.01"/></symbol>
+  <symbol id="homelab" viewBox="0 0 24 24"><path d="M4 20h16M7 20V5h10v15M10 9h4M10 13h4M10 17h4"/><path d="M3 5h3M18 5h3"/></symbol>
+</svg>

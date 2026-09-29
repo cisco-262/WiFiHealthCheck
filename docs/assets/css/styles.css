@@ -497,6 +497,33 @@ section { padding: 74px 0; }
   flex: 0 0 auto;
 }
 
+.footer-links .footer-product-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.footer-product-icon {
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+}
+
+.footer-product-icon img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  border-radius: inherit;
+}
+
 .copyright {
   text-align: right;
   white-space: nowrap;
@@ -753,6 +780,7 @@ section { padding: 74px 0; }
   font-size: 0;
 }
 .icon svg { width: 30px; height: 30px; stroke: currentColor; }
+.icon use { pointer-events: none; }
 .card {
   border: 1px solid rgba(14,165,168,.12);
   background: rgba(255,255,255,.72);
@@ -848,6 +876,26 @@ section { padding: 74px 0; }
 
 .feature-card h3 {
   margin-top: 0;
+}
+
+.feature-card .icon {
+  margin-bottom: 16px;
+}
+
+.ops-brand-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  color: var(--text);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.ops-brand-lockup img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
 }
 
 @media (max-width: 900px) {
