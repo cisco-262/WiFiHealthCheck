@@ -23,27 +23,26 @@ WiFi Health Check 是一款面向 iPhone 与 iPad 的隐私优先型本地 WiFi 
 
 ---
 
-## v1.5 Update
+## v1.6 Update
 
-WiFi Health Check v1.5 expands the app from WiFi troubleshooting into broader local-network visibility and diagnostics.
+WiFi Health Check v1.6 connects diagnosis with practical next steps while expanding local-network visibility.
 
 ### What’s new
 
-- **LAN Scan enhancements** for discovering devices on the local network
-- **Port Scanner** for checking available TCP services on discovered hosts
-- **Configurable scan concurrency** for faster or more conservative scans
-- **Subnet mask selection** for more flexible LAN discovery
-- **Expanded device and service fingerprints**
-- Better identification for NAS software, media services, Windows / Windows Server, Linux, databases, Portainer, Kubernetes, Bonjour services, and other common infrastructure
-- **Single PRO upgrade** for advanced LAN scanning controls
-- Improved scan-state handling to prevent accidental navigation from interrupting an active scan
-- Updated website positioning, product presentation, and pricing information
+- **Actionable recommendations** based on measured diagnostic findings
+- **Fix verification** with before-and-after issue and score comparison
+- **Troubleshooting progress** for complete PRO action plans
+- **Offline Troubleshooting Center** for WiFi, DNS, TCP, IPv4/IPv6, and Mesh topics
+- **Home Screen widgets** for the latest health score, WiFi status, and primary issue
+- **Enhanced LAN device fingerprints** using TCP and Bonjour / mDNS observations
+- Configurable scan concurrency and custom subnet controls for PRO
+- Updated More, About, history, and report presentation
 
 ### Free and PRO
 
-**Free** includes the core WiFi and network diagnostic experience.
+**Free** includes the core WiFi and network diagnostic experience plus a complete action plan for the primary issue.
 
-**PRO** is a one-time upgrade that unlocks advanced LAN scanning capabilities, including enhanced scan controls such as configurable concurrency and subnet selection.
+**PRO** is a one-time upgrade that unlocks complete multi-issue action plans, fix verification, advanced troubleshooting guides, enhanced device fingerprints, configurable concurrency, and custom subnet selection.
 
 The app remains useful without PRO; the upgrade is focused on users who need deeper local-network visibility and more control over scanning.
 
@@ -288,9 +287,8 @@ WiFi Health Check 会结合网络信息、常见端口、Bonjour / mDNS 信号�
 **Homelab**  
 从手机或平板查看服务器、容器、自托管服务、Proxmox、NAS 等本地基础设施。
 
-
-
 ---
+
 
 ## Privacy
 
