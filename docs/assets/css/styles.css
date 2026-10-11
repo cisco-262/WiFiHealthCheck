@@ -909,3 +909,19 @@ section { padding: 74px 0; }
     grid-template-columns: 1fr;
   }
 }
+
+/* v1.8: genuine iPhone and iPad screens */
+.hero-visual{margin:0;display:flex;justify-content:center;align-items:center}
+.hero-visual .iphone-screen{display:block;width:min(100%,340px);height:auto;border:8px solid #17201d;border-radius:38px;box-shadow:0 28px 64px rgba(12,48,34,.24);transform:none;object-fit:contain}
+.v18-showcase .showcase-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.v18-showcase .showcase-image{margin:0;display:flex;justify-content:center}
+.v18-showcase .ipad-screen{display:block;width:min(100%,520px);height:auto;max-height:none;border:12px solid #17201d;border-radius:26px;box-shadow:0 24px 60px rgba(12,48,34,.20);object-fit:contain;transform:none}
+@media(max-width:760px){.v18-showcase .showcase-grid{grid-template-columns:1fr;gap:32px}.hero-visual .iphone-screen{width:min(100%,290px)}.v18-showcase .ipad-screen{width:min(100%,430px)}}
+
+.hero-visual .iphone-screen{max-height:none}
+
+/* Supplied device mockups already contain their original frames. */
+.hero-visual .iphone-screen,.v18-showcase .ipad-screen{border:0;border-radius:0;box-shadow:none;object-fit:contain;height:auto;max-height:none}
+.hero-visual .iphone-screen{width:min(100%,360px);filter:drop-shadow(0 22px 26px rgba(12,48,34,.16))}
+.v18-showcase .ipad-screen{width:min(100%,540px)}
+@media(max-width:760px){.hero-visual .iphone-screen{width:min(100%,300px)}.v18-showcase .ipad-screen{width:min(100%,440px)}}
