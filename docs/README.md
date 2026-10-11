@@ -23,21 +23,6 @@ WiFi Health Check 是一款面向 iPhone 与 iPad 的隐私优先型本地 WiFi 
 
 ---
 
-## v1.6 Update
-
-WiFi Health Check v1.6 connects diagnosis with practical next steps while expanding local-network visibility.
-
-### What’s new
-
-- **Actionable recommendations** based on measured diagnostic findings
-- **Fix verification** with before-and-after issue and score comparison
-- **Troubleshooting progress** for complete PRO action plans
-- **Offline Troubleshooting Center** for WiFi, DNS, TCP, IPv4/IPv6, and Mesh topics
-- **Home Screen widgets** for the latest health score, WiFi status, and primary issue
-- **Enhanced LAN device fingerprints** using TCP and Bonjour / mDNS observations
-- Configurable scan concurrency and custom subnet controls for PRO
-- Updated More, About, history, and report presentation
-
 ### Free and PRO
 
 **Free** includes the core WiFi and network diagnostic experience plus a complete action plan for the primary issue.
